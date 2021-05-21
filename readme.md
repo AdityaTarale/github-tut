@@ -29,6 +29,10 @@ git checkout -b branchName
 
 git branch -D branchName
 
-## To merge branch
+## To merge branch 
+
+(first go to that branch you want to merge ie master)
+
+git merge branchName
 
 ## To delete branch after merge
