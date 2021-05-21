@@ -48,3 +48,9 @@ git branch -d branchName
 git remote add origin repositoryUrl
 
 git push origin master
+
+## Pull request
+
+(to keep files are up to date if any developer made changes in master branch)
+
+git pull origin master
