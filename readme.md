@@ -2,12 +2,11 @@
 
 ## checkout --> revert --> reset
 
- git checkout commitId
+git checkout commitId
 
- git revert commitId
+git revert commitId
 
- git reset commitId
-
+git reset commitId
 
 # Branching
 
@@ -29,10 +28,23 @@ git checkout -b branchName
 
 git branch -D branchName
 
-## To merge branch 
+## To merge branch
 
 (first go to that branch you want to merge ie master)
 
 git merge branchName
 
+## Conflict moment
+
+git add .
+git commit (This is merge commit so we dont need to write commit message beside it but in vscode)
+
 ## To delete branch after merge
+
+git branch -d branchName
+
+## Alias(whe we are creating repo on our machine)
+
+git remote add origin repositoryUrl
+
+git push origin master
