@@ -53,4 +53,4 @@ git push origin master
 
 (to keep files are up to date if any developer made changes in master branch)
 
-git pull origin master
+git pull origin master (always do into master branch and then make new child branch for feature)
